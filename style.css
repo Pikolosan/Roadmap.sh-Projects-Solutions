@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 100%;
+    
+}
+
+.name {
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* Navigation */
+nav a {
+    text-decoration: none;
+    color: #303030;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+/* Title Section */
+.title-section {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 3rem;
+}
+
+/* Main Content */
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    gap: 10px;
+    border-top: 1px solid black;
+}
+
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.projects {
+    border-right: 1px solid #000;
+    width: 100%;
+}
+
+.projects-list {
+    text-align: center;
+}
+
+.project-item1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.project-item {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.project-item2{
+    padding: 20px;
+}
+
+.work-experience{
+    border-right: 1px solid #000;
+}
+
+.work-experience-item{
+    padding: 20px;
+    line-height: 2rem;
+    /* background-color: red; */
+}
+.no-border {
+    height: 30px;
+}
+
+.work-experience {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.education {
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+.education h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 20px;
+    border-top: 1px solid #000;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #000;
+}
